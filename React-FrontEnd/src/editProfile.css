@@ -1,0 +1,90 @@
+/* Container */
+.edit-profile-container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.edit-profile-container h2 {
+  text-align: center;
+  color: #2d492f;
+  margin-bottom: 20px;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  color: #2d492f;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #2d492f;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background-color: #2d492f;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #1f3321;
+}
+
+/* Profile image */
+.profile-image-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image-preview {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #2d492f;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.upload-btn {
+  display: inline-block;
+  margin-top: 10px;
+}
